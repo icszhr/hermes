@@ -47,7 +47,7 @@
             <mxPoint x="25" y="430" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LbomDqhgeCdCKVzGIodq-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=#B3B3B3;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Please describe the content of this video.&lt;/font&gt;" vertex="1">
+        <mxCell id="LbomDqhgeCdCKVzGIodq-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=default;fillColor=#B3B3B3;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;" value="&lt;font face=&quot;Lucida Console&quot;&gt;Please describe the content of this video.&lt;/font&gt;" vertex="1">
           <mxGeometry height="50" width="114.5" x="-36.5" y="291" as="geometry" />
         </mxCell>
         <mxCell id="LbomDqhgeCdCKVzGIodq-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=light-dark(#fff2cc, #ededed);fontSize=16;fontFamily=Times New Roman;" value="&lt;font&gt;Vision Transformer&lt;/font&gt;" vertex="1">
