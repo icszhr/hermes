@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="4038Lezc8f7DxJACMpS2">
-    <mxGraphModel dx="368" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="643" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
           <mxGeometry height="15" width="130.5" x="560" y="458.75" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontFamily=Times New Roman;fontStyle=1" value="Q, K, V Proj" vertex="1">
-          <mxGeometry height="30" width="90" x="417" y="551" as="geometry" />
+          <mxGeometry height="30" width="90" x="417" y="544" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;fontFamily=Times New Roman;fontStyle=1" value="O Proj" vertex="1">
           <mxGeometry height="13" width="70" x="435" y="377" as="geometry" />
@@ -51,8 +51,8 @@
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-27" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;endFill=0;strokeWidth=2;endSize=6;fontStyle=1;startSize=9;startArrow=async;startFill=1;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="406" y="577" as="sourcePoint" />
-            <mxPoint x="516" y="577" as="targetPoint" />
+            <mxPoint x="406" y="570" as="sourcePoint" />
+            <mxPoint x="516" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-74" connectable="0" parent="1" style="group" value="" vertex="1">
@@ -167,7 +167,7 @@
           <mxGeometry height="56" width="23" x="3.5" y="120" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-60" connectable="0" parent="QtEZIe-Gtl6xvw8H4bxX-75" style="group;fontStyle=1" value="" vertex="1">
-          <mxGeometry height="40" width="20" x="5" y="129" as="geometry" />
+          <mxGeometry height="40" width="20" x="5" y="125" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-61" parent="QtEZIe-Gtl6xvw8H4bxX-60" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;X&lt;/div&gt;" vertex="1">
           <mxGeometry height="10" width="20" as="geometry" />
@@ -176,7 +176,7 @@
           <mxGeometry height="10" width="20" y="37" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-63" parent="QtEZIe-Gtl6xvw8H4bxX-75" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;*&lt;/div&gt;" vertex="1">
-          <mxGeometry height="10" width="20" x="5" y="146" as="geometry" />
+          <mxGeometry height="10" width="20" x="5" y="145" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-64" parent="QtEZIe-Gtl6xvw8H4bxX-75" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" value="" vertex="1">
           <mxGeometry height="8" width="23" x="3.5" y="112" as="geometry" />
@@ -301,11 +301,11 @@
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-132" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" value="N" vertex="1">
           <mxGeometry height="15" width="30" x="624.25" y="537" as="geometry" />
         </mxCell>
-        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-135" parent="1" style="text;whiteSpace=wrap;fontSize=12;" value="\[&#xa;\mathrm{addr}_{G \rightarrow D}(t,h) = base_D + \left\lfloor \frac{t}{C} \right\rfloor HC + hC + \left\lfloor \frac{(t \bmod C)}{Y} \right\rfloor Y + (t \bmod C)\bmod Y&#xa;\]" vertex="1">
-          <mxGeometry height="23" width="490" x="240" y="320" as="geometry" />
+        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-135" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="\[&#xa;\mathrm{addr}_{G \rightarrow D}(t,h) = base_D + \left\lfloor \frac{t}{C} \right\rfloor HC + hC + \left\lfloor \frac{(t \bmod C)}{Y} \right\rfloor Y + (t \bmod C)\bmod Y&#xa;\]" vertex="1">
+          <mxGeometry height="23" width="490" x="240" y="343" as="geometry" />
         </mxCell>
-        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-136" parent="1" style="text;whiteSpace=wrap;fontSize=12;" value="\[&#xa;\mathrm{addr}_{D \rightarrow G}(b,h,x,y) = base_G + (bC + xY + y)H + h&#xa;\]" vertex="1">
-          <mxGeometry height="35" width="320" x="304.25" y="563" as="geometry" />
+        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-136" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="\[&#xa;\mathrm{addr}_{D \rightarrow G}(b,h,x,y) = base_G + (bC + xY + y)H + h&#xa;\]" vertex="1">
+          <mxGeometry height="18" width="320" x="304.25" y="572" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
