@@ -52,12 +52,6 @@
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-93" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=15;" value="$$U_D \in \mathbb{R}^{N \times H \times 1 \times X}$$" vertex="1">
           <mxGeometry height="30" width="156" x="561.25" y="516.5" as="geometry" />
         </mxCell>
-        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-135" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="\[&#xa;\mathrm{addr}_{G \rightarrow D}(t,h) = base_D + \left\lfloor \frac{t}{C} \right\rfloor HC + hC + \left\lfloor \frac{(t \bmod C)}{Y} \right\rfloor Y + (t \bmod C)\bmod Y&#xa;\]" vertex="1">
-          <mxGeometry height="23" width="490" x="237" y="359" as="geometry" />
-        </mxCell>
-        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-136" parent="1" style="text;whiteSpace=wrap;fontSize=12;verticalAlign=middle;" value="\[&#xa;\mathrm{addr}_{D \rightarrow G}(b,h,x,y) = base_G + (bC + xY + y)H + h&#xa;\]" vertex="1">
-          <mxGeometry height="18" width="320" x="302.87" y="561" as="geometry" />
-        </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-159" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="157" width="208.5" x="373" y="385" as="geometry" />
         </mxCell>
@@ -80,7 +74,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-70" parent="QtEZIe-Gtl6xvw8H4bxX-159" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" value="N" vertex="1">
-          <mxGeometry height="15" width="27" x="181.5" y="82.5" as="geometry" />
+          <mxGeometry height="15" width="27" x="173.5" y="82.5" as="geometry" />
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-79" edge="1" parent="QtEZIe-Gtl6xvw8H4bxX-159" source="QtEZIe-Gtl6xvw8H4bxX-37" style="endArrow=none;html=1;rounded=0;endFill=0;exitX=1.004;exitY=0.163;exitDx=0;exitDy=0;entryX=0.022;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" target="QtEZIe-Gtl6xvw8H4bxX-59" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -241,6 +235,21 @@
         </mxCell>
         <mxCell id="QtEZIe-Gtl6xvw8H4bxX-73" parent="QtEZIe-Gtl6xvw8H4bxX-159" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" value="T" vertex="1">
           <mxGeometry height="15" width="20" y="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-160" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.001;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;startSize=4;" target="QtEZIe-Gtl6xvw8H4bxX-59" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="502" as="sourcePoint" />
+            <mxPoint x="480" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-161" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;fontStyle=1" value="&lt;div style=&quot;line-height: 100%;&quot;&gt;offset = Y&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="73" x="422" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-169" parent="1" style="text;whiteSpace=wrap;verticalAlign=middle;" value="\[ \mathrm{addr}_G(t,h) = \mathrm{addr}_D\!\left(\left\lfloor \tfrac{t}{X} \right\rfloor,\, h,\, t \bmod X\right) \]" vertex="1">
+          <mxGeometry height="23.5" width="252" x="336" y="553" as="geometry" />
+        </mxCell>
+        <mxCell id="QtEZIe-Gtl6xvw8H4bxX-170" parent="1" style="text;whiteSpace=wrap;verticalAlign=middle;" value="\[ \mathrm{addr}_D(n,h,x) = \mathrm{addr}_G(nX + x,\, h)\]" vertex="1">
+          <mxGeometry height="20" width="223" x="357" y="369" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
