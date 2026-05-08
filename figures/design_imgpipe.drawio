@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36">
   <diagram name="第 1 页" id="MrFx-UOJmhqwsODPHqqn">
-    <mxGraphModel dx="-156" dy="952" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-184" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -22,7 +22,7 @@
         <mxCell id="taiWHSUcbmmcihhguXY2-157" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;(2) Video/batch processing pipeline&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="16" width="254.47" x="1139.05" y="806" as="geometry" />
         </mxCell>
-        <mxCell id="taiWHSUcbmmcihhguXY2-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;(3) Prefill chunk coalescing&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="taiWHSUcbmmcihhguXY2-158" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;(3) Prefill chunk exchange&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="16" width="175.48" x="1155.52" y="908" as="geometry" />
         </mxCell>
         <mxCell id="taiWHSUcbmmcihhguXY2-159" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;spacingTop=0;fillColor=#D4E1F5;fontSize=14;" value="E" vertex="1">
