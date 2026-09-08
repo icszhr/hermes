@@ -1,9 +1,71 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="bBNZ8QumH-ycoLumm4ES">
-    <mxGraphModel>
+    <mxGraphModel dx="526" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-1" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="740" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-2" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="700" as="sourcePoint" />
+            <mxPoint x="420" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=16;fontStyle=1" value="NPU Utilization" vertex="1">
+          <mxGeometry height="30" width="120" x="520" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-90;fontFamily=Times New Roman;fontSize=16;fontStyle=1" value="GPU Utilization" vertex="1">
+          <mxGeometry height="30" width="120" x="345" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-5" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.star;fillColor=light-dark(#b04a4a, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="25" width="25" x="649" y="523" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-9" edge="1" parent="1" source="yRQ3V2rVHAkEMvV_jZ89-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endSize=3;dashed=1;endArrow=block;endFill=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="558.0710678118653" y="543.0710678118653" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#8fbf8f, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="587" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-10" edge="1" parent="1" source="yRQ3V2rVHAkEMvV_jZ89-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endSize=3;dashed=1;endArrow=block;endFill=1;" target="yRQ3V2rVHAkEMvV_jZ89-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#f2a65a, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="539" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;fillColor=light-dark(#3b77d7, #ededed);strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="611" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=16;fontStyle=1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;npu.llm&lt;/font&gt;" vertex="1">
+          <mxGeometry height="12" width="54" x="579" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=16;fontStyle=1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Heteroinfer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="12" width="54" x="523" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=16;fontStyle=1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;ShadowNPU&lt;/font&gt;" vertex="1">
+          <mxGeometry height="12" width="54" x="594" y="655" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-15" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=light-dark(#9d9d9d, #ededed);fontSize=12;" value="Prefill NPU offloading" vertex="1">
+          <mxGeometry height="40" width="150" x="546" y="583" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-17" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=light-dark(#9d9d9d, #ededed);" value="GPU–NPU tensor partitioning" vertex="1">
+          <mxGeometry height="40" width="190" x="472" y="513" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-18" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=light-dark(#9d9d9d, #ededed);" value="NPU-centric sparse attention" vertex="1">
+          <mxGeometry height="20" width="150" x="548" y="658" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-19" parent="1" style="text;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontColor=light-dark(#9d9d9d, #ededed);" value="Cross-stage E–P co-execution" vertex="1">
+          <mxGeometry height="20" width="150" x="607" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="yRQ3V2rVHAkEMvV_jZ89-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=16;fontStyle=1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DuetEP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="12" width="54" x="634.5" y="548" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
