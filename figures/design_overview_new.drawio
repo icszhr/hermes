@@ -351,7 +351,7 @@
         <mxCell id="lpO5E6VHhhQ9yBrVmWeF-119" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=10;fillColor=light-dark(#f8fbfd, #ededed);strokeColor=light-dark(#cad5e3, #ededed);" value="Prefill Chunk Exchange" vertex="1">
           <mxGeometry height="25" width="106" x="301" y="496" as="geometry" />
         </mxCell>
-        <mxCell id="lpO5E6VHhhQ9yBrVmWeF-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=10;fillColor=light-dark(#f8fbfd, #ededed);strokeColor=light-dark(#cad5e3, #ededed);" value="E-P Mixed Execution" vertex="1">
+        <mxCell id="lpO5E6VHhhQ9yBrVmWeF-120" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=10;fillColor=light-dark(#f8fbfd, #ededed);strokeColor=light-dark(#cad5e3, #ededed);" value="E–P Interleaved Execution" vertex="1">
           <mxGeometry height="25" width="106" x="301" y="525" as="geometry" />
         </mxCell>
         <mxCell id="lpO5E6VHhhQ9yBrVmWeF-121" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
